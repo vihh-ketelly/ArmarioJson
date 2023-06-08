@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Monitoramento dos Armários Escolares</title>
+</head>
+
+<body>
+    <header>
+        <h1>Central de Monitoramento</h1>
+    </header>
+    <main>
+        <h2>Este é o sistema de monitoramento dos armários escolares <span style="color: rgb(6, 2, 56); text-decoration: underline;">Thécio Moura</span></h2>
+            <ul>
+                <li>Total de Amários: 15</li>
+                <li>Total de blocos da escola: 1</li>
+
+            </ul>
+            <div class="legendas">
+                <h3>Legendas:</h3>
+                <div class="quadrados">
+                    <div class="livre"></div>
+                    <div class="ocupado"></div>
+                    <div class="manutencao"></div>
+                </div>
+                <div class="leg-text">
+                    <p id="liv">LIVRE</p>
+                    <p id="ocu">OCUPADO</p>
+                    <p id="man">MANUTENÇÃO</p>
+                </div>
+            </div>
+    </main>
+        
+    <div class="titulo">
+        <h2 style="color: white; text-decoration: underline;">Bloco A</h2></div>
+        <div class="ares-1">
+            <div class="ar-1" data-status="ocupado" id="ar-1">
+                <div class="card">
+                    <div class="card-inner">
+                        <h1>Armario 1</h1><br>
+                        <button id="btn-ar-1-livre" class="status-btn">Livre</button>
+                        <button id="btn-ar-1-manutencao" class="status-btn">Manutenção</button>
+                        <button id="btn-ar-1-ocupado" class="status-btn">Ocupado</button>
+                        <div class="card-front"  style="background: linear-gradient(317.48deg, red 20.49%, rgb(37, 37, 37) 102.33%);">
+                            <img src="./Ocupado.png" alt="armario_cor_vermelha">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ar-2" data-status="ocupado" id="ar-2">
+                <div class="card">
+                    <div class="card-inner">
+                        <h1>Armario 2</h1><br>
+                        <button id="btn-ar-2-livre" class="status-btn">Livre</button>
+                        <button id="btn-ar-2-manutencao" class="status-btn">Manutenção</button>
+                        <button id="btn-ar-2-ocupado" class="status-btn">Ocupado</button>
+                        <div class="card-front" style="background: linear-gradient(317.48deg, red 20.49%, rgb(37, 37, 37) 102.33%);">
+                            <img src="Ocupado.png" alt="armario-vermelho">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="ar-3" data-status="livre" id="ar-3">
+                <div class="card">
+                    <div class="card-inner">
+                        <h1>Armário 3</h1><br>
+                        <button id="btn-ar-3-livre" class="status-btn">Livre</button>
+                        <button id="btn-ar-3-manutencao" class="status-btn">Manutenção</button>
+                        <button id="btn-ar-3-ocupado" class="status-btn">Ocupado</button>
+                        <div class="card-front" style="background: linear-gradient(317.48deg, green 20.49%, rgb(37, 37, 37) 102.33%);">
+                            <img src="Livre.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="ar-4" data-status="ocupado" id="ar-4">
+                <div class="card">
+                    <div class="card-inner">
+                        <h1>Armário 4</h1><br>
+                        <button id="btn-ar-4-livre" class="status-btn">Livre</button>
+                        <button id="btn-ar-4-manutencao" class="status-btn">Manutenção</button>
+                        <button id="btn-ar-4-ocupado" class="status-btn">Ocupado</button>
+                        <div class="card-front"  style="background: linear-gradient(317.48deg, red 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <img src="Ocupado.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ar-5" data-status="manutençao" id="ar-5">
+                <div class="card">
+                    <div class="card-inner">
+                        <h1>Armário 5</h1><br>
+                        <button id="btn-ar-5-livre" class="status-btn">Livre</button>
+                        <button id="btn-ar-5-manutencao" class="status-btn">Manutenção</button>
+                        <button id="btn-ar-5-ocupado" class="status-btn">Ocupado</button>
+                        <div class="card-front" style="background: linear-gradient(317.48deg, rgb(255, 166, 0) 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <img src="20230416_004150_0000.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="ar-6" data-status="ocupado" id="ar-6">
+                <div class="card">
+                    <div class="card-inner">
+                        <h1>Armário 6</h1><br>
+                        <button id="btn-ar-6-livre">Livre</button>
+                        <button id="btn-ar-6-manutencao">Manutenção</button>
+                        <button id="btn-ar-6-ocupado">Ocupado</button>
+                        <div class="card-front" style="background: linear-gradient(317.48deg, red 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <img src="Ocupado.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="ar-7" data-status="livre" id="ar-7">
+                <div class="card">
+                    <div class="card-inner">
+                        <h1>Armário 7</h1><br>
+                        <button id="btn-ar-7-livre">Livre</button>
+                        <button id="btn-ar-7-manutencao">Manutenção</button>
+                        <button id="btn-ar-7-ocupado">Ocupado</button>
+                        <div class="card-front" style="background: linear-gradient(317.48deg, green 20.49%, rgb(37,37, 37) 102.33%);">
+                        <img src="Livre.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="ar-8" data-status="livre" id="ar-8">
+                <div class="card">
+                    <div class="card-inner">
+                        <h1>Armário 8</h1><br>
+                        <button id="btn-ar-8-livre" class="status-btn">Livre</button>
+                        <button id="btn-ar-8-manutencao" class="status-btn">Manutenção</button>
+                        <button id="btn-ar-8-ocupado" class="status-btn">Ocupado</button>
+                        <div class="card-front" style="background: linear-gradient(317.48deg, green 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <img src="Livre.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="ar-9" data-status="manutençao" id="ar-9">
+                <div class="card">
+                    <div class="card-inner">
+                        <h1>Armário 9</h1><br>
+                        <button id="btn-ar-9-livre">Livre</button>
+                        <button id="btn-ar-9-manutencao">Manutenção</button>
+                        <button id="btn-ar-9-ocupado">Ocupado</button>
+                        <div class="card-front" style="background: linear-gradient(317.48deg, rgb(255, 166, 0) 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <img src="20230416_004150_0000.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="ar-10" data-status="manutençao" id="ar-10">
+                <div class="card">
+                    <div class="card-inner">
+                        <h2>Armário 10</h2><br>
+                        <button id="btn-ar-10-livre">Livre</button>
+                        <button id="btn-ar-10-manutencao">Manutenção</button>
+                        <button id="btn-ar-10-ocupado">Ocupado</button>
+                        <div class="card-front" style="background: linear-gradient(317.48deg, rgb(255, 166, 0) 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <img src="20230416_004150_0000.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ar-11" data-status="ocupado" id="ar-11">
+                <div class="card">
+                    <div class="card-inner">
+                        <h1>Armário 11</h1><br>
+                        <button id="btn-ar-11-livre">Livre</button>
+                        <button id="btn-ar-11-manutencao">Manutenção</button>
+                        <button id="btn-ar-11-ocupado">Ocupado</button>
+                        <div class="card-front" style="background: linear-gradient(317.48deg, red 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <img src="Ocupado.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ar-12" data-status="ocupado" id="ar-12">
+                <div class="card">
+                    <div class="card-inner">
+                        <h1>Armário 12</h1><br>
+                        <button id="btn-ar-12-livre" class="status-btn">Livre</button>
+                        <button id="btn-ar-12-manutencao" class="status-btn">Manutenção</button>
+                        <button id="btn-ar-12-ocupado" class="status-btn">Ocupado</button>
+                        <div class="card-front" style="background: linear-gradient(317.48deg, red 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <img src="Ocupado.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ar-13" data-status="livre" id="ar-13">
+                <div class="card">
+                    <div class="card-inner">
+                        <h1>Armário 13</h1><br>
+                        <button id="btn-ar-13-livre">Livre</button>
+                        <button id="btn-ar-13-manutencao">Manutenção</button>
+                        <button id="btn-ar-13-ocupado">Ocupado</button>
+                        <div class="card-front" style="background: linear-gradient(317.48deg, green 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <img src="Livre.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ar-14" data-status="manutençao" id="ar-14">
+                <div class="card">
+                    <div class="card-inner">
+                        <h1>Armário 14</h1><br>
+                        <button id="btn-ar-14-livre" class="status-btn">Livre</button>
+                        <button id="btn-ar-14-manutencao" class="status-btn">Manutenção</button>
+                        <button id="btn-ar-14-ocupado" class="status-btn">Ocupado</button>
+                        <div class="card-front" style="background: linear-gradient(317.48deg, rgb(255, 166, 0) 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <img src="20230416_004150_0000.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ar-15" data-status="livre" id="ar-15">
+                <div class="card">
+                    <div class="card-inner">
+                        <h1>Armário 15</h1><br>
+                        <button id="btn-ar-15-livre" class="status-btn">Livre</button>
+                        <button id="btn-ar-15-manutencao" class="status-btn">Manutenção</button>
+                        <button id="btn-ar-15-ocupado" class="status-btn">Ocupado</button>
+                        <div class="card-front" style="background: linear-gradient(317.48deg, green 20.49%, rgb(37, 37, 37) 102.33%);">
+                        <img src="Livre.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

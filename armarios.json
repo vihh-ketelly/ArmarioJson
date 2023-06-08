@@ -1,0 +1,18 @@
+[
+    { "id": "ar-1", "status": ["livre", "manutencao", "ocupado"] },
+    { "id": "ar-2", "status": ["livre", "manutencao", "ocupado"] },
+    { "id": "ar-3", "status": ["livre", "manutencao", "ocupado"] },
+    { "id": "ar-4", "status": ["livre", "manutencao", "ocupado"] },
+    { "id": "ar-5", "status": ["livre", "manutencao", "ocupado"] },
+    { "id": "ar-6", "status": ["livre", "manutencao", "ocupado"] },
+    { "id": "ar-7", "status": ["livre", "manutencao", "ocupado"] },
+    { "id": "ar-8", "status": ["livre", "manutencao", "ocupado"] },
+    { "id": "ar-9", "status": ["livre", "manutencao", "ocupado"] },
+    { "id": "ar-10", "status": ["livre", "manutencao", "ocupado"] },
+    { "id": "ar-11", "status": ["livre", "manutencao", "ocupado"] },
+    { "id": "ar-12", "status": ["livre", "manutencao", "ocupado"] },
+    { "id": "ar-13", "status": ["livre", "manutencao", "ocupado"] },
+    { "id": "ar-14", "status": ["livre", "manutencao", "ocupado"] },
+    { "id": "ar-15", "status": ["livre", "manutencao", "ocupado"] }
+  ]
+  

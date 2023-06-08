@@ -1,0 +1,194 @@
+* {
+    padding:0px;
+    margin:0px;
+    
+  }
+  
+  body {
+    background-color: #dcdada;
+    
+  }
+  
+  header {
+    background-image: url("c3.png");
+    height: 200px;
+    width: 99%;
+    border-bottom: 7px solid rgb(228, 228, 228);
+    
+  }
+  
+  header h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 80px;
+    color: rgb(255, 255, 255);
+    
+  }
+  
+  main h2 {
+    padding-top: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    
+  }
+  
+  main ul li {
+    color: rgb(3, 1, 34);
+    padding-left: 10px;
+    padding-top: 30px;
+    
+  }
+  
+  main h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:5px;
+    color: black;
+    
+  }
+  
+  .quadrados {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.leg-text {
+    color: rgb(3, 1, 34);
+    text-align: center;
+    
+}
+
+#liv, #ocu, #man {
+    display: inline-block;
+    padding: 0 30px;
+}
+  .armario {
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    
+  
+  }
+  
+  .livre {
+    width: 60px;
+    height: 28px;
+    background-image: url("livre3.png");
+    display: inline-block;
+    margin-left: 15px;
+    
+  
+  
+  }
+  
+  .ocupado {
+    width: 60px;
+    height: 30px;
+    background-image: url("ocupado3.png");
+    display: inline-block;
+    margin-left: 100px;
+    
+  }
+  
+  .manutencao {
+    width: 58px;
+    height: 28px;
+    background-image: url("manutencao3.png");
+    display: inline-block;
+    margin-left: 100px;
+    
+  }
+  
+  
+  .card {
+    /*altura e largura dos cards-front*/
+    background: transparent;
+    width: 185px;
+    height:300px;
+    perspective: 1000px;
+    padding-top: 100px;
+    padding-left: 50px;
+    float: left;
+  
+    
+  }
+  
+  .card-inner {
+    /*altura e largura dos cards-back*/
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  
+  
+  .card-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 17px;
+    
+  }
+  
+  
+  .card-front img {
+    width: 200px;
+    padding: top 15px;
+    
+  }
+  
+  
+  
+  .card-front h1 {
+  
+    margin: 0;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    
+  }
+  
+  
+  button {
+    margin: 0 auto;
+    cursor: pointer;
+    background-color: #007bff;
+    /* cor de fundo azul */
+    color: #fff;
+    /* cor do texto branco */
+    border-radius: 100px;
+    /* bordas arredondadas */
+    padding: 2px 3px;
+    /* espaço interno */
+    border: none;
+    /* sem borda */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    /* sombra */
+    transition: all 0.3s ease;
+    /* transição de animação */
+    text-align: center;
+  
+  }
+  
+  button:hover {
+    background-color: rgb(6, 2, 56);
+    /* cor de fundo azul escuro */
+    box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.3);
+    /* sombra mais forte */
+    transform: translateY(-3px);
+    /* deslocamento para cima */
+    
+  }
+  .titulo{
+    background-color:rgb(6, 2, 56) ;
+    padding-top: 20px;
+    position: relative;
+    width: 10%;
+    height: 10%;
+    
+    
+  
+  }
