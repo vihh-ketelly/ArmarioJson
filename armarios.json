@@ -1,5 +1,5 @@
 [
-    { "id": "ar-1", "status": ["livre", "manutencao", "ocupado"] },
+    { "id": "ar-1", "status": [ "manutencao"] },
     { "id": "ar-2", "status": ["livre", "manutencao", "ocupado"] },
     { "id": "ar-3", "status": ["livre", "manutencao", "ocupado"] },
     { "id": "ar-4", "status": ["livre", "manutencao", "ocupado"] },
