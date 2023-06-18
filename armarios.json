@@ -1,18 +1,62 @@
 [
   {
-    "cor": "blue",
-    "imagem": "Ocupado.png"
+    "id": "ar-1",
+    "estado": "ocupado"
   },
   {
-    "cor": "red",
-    "imagem": "Ocupado.png"
+    "id": "ar-2",
+    "estado": "manutencao"
   },
   {
-    "cor": "blue",
-    "imagem": "Ocupado.png"
+    "id": "ar-3",
+    "estado": "livre"
   },
   {
-    "cor": "blue",
-    "imagem": "Ocupado.png"
+    "id": "ar-4",
+    "estado": "manutencao"
+  },
+  {
+    "id": "ar-5",
+    "estado": "livre"
+  },
+  {
+    "id": "ar-6",
+    "estado": "livre"
+  },
+  {
+    "id": "ar-7",
+    "estado": "livre"
+  },
+  {
+    "id": "ar-8",
+    "estado": "manutencao"
+  },
+  {
+    "id": "ar-9",
+    "estado": "ocupado"
+  },
+  {
+    "id": "ar-10",
+    "estado": "livre"
+  },
+  {
+    "id": "ar-11",
+    "estado": "livre"
+  },
+  {
+    "id": "ar-12",
+    "estado": "manutencao"
+  },
+  {
+    "id": "ar-13",
+    "estado": "ocupado"
+  },
+  {
+    "id": "ar-14",
+    "estado": "livre"
+  },
+  {
+    "id": "ar-15",
+    "estado": "ocupado"
   }
 ]
