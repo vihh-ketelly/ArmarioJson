@@ -86,17 +86,40 @@ function alterarStatusArmario(idArmario, novoStatus) {
   adicionarEventoBotao('ar-15', 'manutencao');
   adicionarEventoBotao('ar-15', 'ocupado');
 
-  
-  // Lendo o arquivo JSON
+//////////////////////////////////////////////////////////////////////////////////
+
+
+//JSON
 fetch('armarios.json')
-.then(response => response.json())
-.then(data => {
-  // Atualiza as cores e imagens dos armários com base nos dados do JSON
-  for (var i = 0; i < data.length; i++) {
-    var cardFront = document.querySelectorAll(".card-front")[i];
-    var cor = data[i].cor;
-    var imagem = data[i].imagem;
-    cardFront.style.background = "linear-gradient(317.48deg, " + cor + " 20.49%, rgb(37, 37, 37) 102.33%)";
-    cardFront.querySelector("img").src = imagem;
-  }
-});
+  .then(response => response.json())
+  .then(data => {
+    //cores e imagens dos armários com base nos dados do JSON
+    data.forEach(armario => {
+      var cardFront = document.getElementById(armario.id).querySelector(".card-front");
+
+      //a cor e a imagem com base no estado
+      var cor, imagem;
+
+      if (armario.estado === "ocupado") {
+        cor = "red";
+        imagem = "Ocupado.png";
+      } else if (armario.estado === "manutencao") {
+        cor = "yellow";
+        imagem = "20230416_004150_0000.png";
+      } else {
+        cor = "green";
+        imagem = "Livre.png";
+      }
+      cardFront.style.background = "linear-gradient(317.48deg, " + cor + " 20.49%, rgb(37, 37, 37) 102.33%)";
+      cardFront.querySelector("img").src = imagem;
+
+      if (armario.estado === "ocupado") {
+        // Fazer algo para o estado ocupado
+      } else if (armario.estado === "manutencao") {
+        // Fazer algo para o estado em manutenção
+      } else {
+        // Fazer algo para o estado livre
+      }
+    });
+  });
+
